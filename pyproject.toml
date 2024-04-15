@@ -1,0 +1,20 @@
+[project]
+name = "tensorboard"
+description = "TensorBoard 可视化面板"
+authors = [{name= "Chenglu", email = "chenglu.she@gmail.com"}]
+version = "1.0.0"
+readme = "README.md"
+
+[project.urls]
+Homepage = "https://github.com/louis-she/featurize-tensorboard"
+Documentation = "https://github.com/louis-she/featurize-tensorboard/blob/master/README.md"
+Repository = "https://github.com/louis-she/featurize-tensorboard"
+Changelog = "https://github.com/louis-she/featurize-tensorboard/blob/master/CHANGELOG.md"
+Issues = "https://github.com/louis-she/featurize-tensorboard/issues"
+
+[featurize]
+port = "20005"
+icon = "https://featurize-public.oss-cn-beijing.aliyuncs.com/apps/tensorflow_icon.png"
+author_github = "https://github.com/louis-she"
+name = "TensorBoard"
+newtab = false
