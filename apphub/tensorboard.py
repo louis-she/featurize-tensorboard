@@ -38,8 +38,8 @@ TensorBoard 可视化面板
             self.render_log()
         return b
 
-    def installation(self, *args):
-        super().installation(*args)
+    def installation(self, install_location, conda_env):
+        super().installation(install_location, conda_env)
         with self.conda_activate(self.cfg.conda_env):
             self.execute_command("pip install tensorboard")
         self.save_app_config()
