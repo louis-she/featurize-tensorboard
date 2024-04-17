@@ -14,6 +14,7 @@ Issues = "https://github.com/louis-she/featurize-tensorboard/issues"
 
 [featurize]
 port = "20005"
+op_port = "30005"
 icon = "https://featurize-public.oss-cn-beijing.aliyuncs.com/apps/tensorflow_icon.png"
 author_github = "https://github.com/louis-she"
 name = "TensorBoard"
